@@ -21,6 +21,8 @@
 		EF51844418FC616400656856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF51842618FC616400656856 /* UIKit.framework */; };
 		EF51844C18FC616400656856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF51844A18FC616400656856 /* InfoPlist.strings */; };
 		EF51844E18FC616400656856 /* Quiz8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51844D18FC616400656856 /* Quiz8Tests.m */; };
+		EF51845818FC638800656856 /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = EF51845718FC638800656856 /* redframe.png */; };
+		EF5184AB18FCDCAA00656856 /* Quiz8DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5184AA18FCDCAA00656856 /* Quiz8DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		EF51844918FC616400656856 /* Quiz8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz8Tests-Info.plist"; sourceTree = "<group>"; };
 		EF51844B18FC616400656856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF51844D18FC616400656856 /* Quiz8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8Tests.m; sourceTree = "<group>"; };
+		EF51845718FC638800656856 /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		EF5184A918FCDCAA00656856 /* Quiz8DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8DrawingView.h; sourceTree = "<group>"; };
+		EF5184AA18FCDCAA00656856 /* Quiz8DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		EF51842818FC616400656856 /* Quiz8 */ = {
 			isa = PBXGroup;
 			children = (
+				EF51845718FC638800656856 /* redframe.png */,
 				EF51843118FC616400656856 /* Quiz8AppDelegate.h */,
 				EF51843218FC616400656856 /* Quiz8AppDelegate.m */,
 				EF51843418FC616400656856 /* Main.storyboard */,
@@ -119,6 +125,8 @@
 				EF51843818FC616400656856 /* Quiz8ViewController.m */,
 				EF51843A18FC616400656856 /* Images.xcassets */,
 				EF51842918FC616400656856 /* Supporting Files */,
+				EF5184A918FCDCAA00656856 /* Quiz8DrawingView.h */,
+				EF5184AA18FCDCAA00656856 /* Quiz8DrawingView.m */,
 			);
 			path = Quiz8;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF51843B18FC616400656856 /* Images.xcassets in Resources */,
+				EF51845818FC638800656856 /* redframe.png in Resources */,
 				EF51842D18FC616400656856 /* InfoPlist.strings in Resources */,
 				EF51843618FC616400656856 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF51843318FC616400656856 /* Quiz8AppDelegate.m in Sources */,
+				EF5184AB18FCDCAA00656856 /* Quiz8DrawingView.m in Sources */,
 				EF51842F18FC616400656856 /* main.m in Sources */,
 				EF51843918FC616400656856 /* Quiz8ViewController.m in Sources */,
 			);
