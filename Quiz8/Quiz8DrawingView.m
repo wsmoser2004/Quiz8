@@ -42,8 +42,7 @@ CGPoint currentPoint;
     }
     
     CGPoint lastPoint = [[self.points lastObject] CGPointValue];
-    currentPoint = CGPointMake(
-                               lastPoint.x + self.currentHorizontalAngle * 10.0,
+    currentPoint = CGPointMake(lastPoint.x + self.currentHorizontalAngle * 10.0,
                                lastPoint.y + self.currentVerticalAngle * 10.0);
     
     if (currentPoint.x < 0)
@@ -80,6 +79,10 @@ CGPoint currentPoint;
 
 - (void)saveCurrentPoint
 {
+    self.currentVerticalAngle = 0;
+    self.currentHorizontalAngle = 0;
+    self.currentVelocity = 0;
+    
     if (self.points == nil)
         self.points = [[NSMutableArray alloc] init];
     [self.points addObject:[NSValue valueWithCGPoint:currentPoint]];
